@@ -1,0 +1,14 @@
+# General IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project sub-directories might have their own .gitignore files,
+# but we can globally ignore node_modules and .env files just in case
+node_modules/
+.env
+.env.*
+
+# Logs
+*.log

@@ -79,7 +79,7 @@ Make sure you have the following installed:
    Push the database schema and seed it with sample data:
    ```bash
    npx prisma db push
-   npx ts-node-dev prisma/seed.ts
+   npx tsx prisma/seed.ts
    ```
 
    Start the backend development server:
